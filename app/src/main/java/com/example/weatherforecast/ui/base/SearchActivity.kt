@@ -128,7 +128,7 @@ class SearchActivity : AppCompatActivity() {
                                     geoLocationViewModel.getLocation(
                                         query,
                                         AppConstants.CITY_LIMITS,
-                                        "76acf95fba2c6f064b321bd0f7c6bd41"
+                                        "YOUR_API_KEY"
                                     )
                                 }
                             } else {
@@ -145,7 +145,7 @@ class SearchActivity : AppCompatActivity() {
                                                 geoLocationViewModel.getLocation(
                                                     query,
                                                     AppConstants.CITY_LIMITS,
-                                                    "76acf95fba2c6f064b321bd0f7c6bd41"
+                                                    "YOUR_API_KEY"
                                                 )
                                             }
                                         } else {
