@@ -261,7 +261,7 @@ class HomeFragment : Fragment() {
             lifecycleScope.launch {
                 if (InternetConnection.isNetworkAvailable(requireActivity())) {
                     lifecycleScope.launch {
-                        weatherViewModel.getWeather(lat, lon, "76acf95fba2c6f064b321bd0f7c6bd41")
+                        weatherViewModel.getWeather(lat, lon, "YOUR_API_KEY")
                     }
                 } else {
                     val snackBar = Snackbar.make(
@@ -276,7 +276,7 @@ class HomeFragment : Fragment() {
                                     weatherViewModel.getWeather(
                                         lat,
                                         lon,
-                                       "76acf95fba2c6f064b321bd0f7c6bd41"
+                                       "YOUR_API_KEY"
                                     )
                                 }
                             } else {
